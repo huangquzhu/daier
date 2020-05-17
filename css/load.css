@@ -1,0 +1,117 @@
+@charset "utf-8";
+.login{
+	height: 396px;
+	width: 700px;
+	margin:50px auto;
+	border: 1px solid #000;
+}
+.loadImg1{
+	height: 396px;
+	width: 310px;
+	float:left;
+}
+.loadImg1 img{
+	height: 100%;
+	width: 100%;
+}
+#formL{
+	height: 396px;
+	width: 390px;
+	float:right;	
+/*	box-sizing: border-box;*/
+	background: #e8e8e8;
+}
+.logo{
+	height: 50px;
+	padding-left: 80px;
+	margin:60px auto 20px;
+}
+.logoImg2{
+	height: 50px;
+	width: 50px;
+	float:left;
+	margin-right:30px;
+}
+.logoImg2 img{
+	height: 100%;
+	width: 100%;
+}
+.logoTit{
+	height: 50px;
+	line-height: 50px;
+	font-size:16px;
+	font-weight: bolder;
+	float:left;
+}
+.user,.psw{
+	height: 30px;
+	width: 270px;
+}
+.user{
+	margin:30px auto 20px;
+}
+.psw{
+	margin:0 auto;
+}
+label{
+	display: block;
+	width: 60px;
+	height: 30px;
+	text-align: 50px;
+	font-size: 16px;
+	float:left;
+}
+#userId,#pswId{
+	display: block;
+	height: 26px;
+	width: 200px;
+	float:left;
+}
+.code{
+	height: 30px;
+	width: 270px;
+	margin:20px auto 0;
+}
+#codeW{
+	height: 26px;
+	width: 80px;
+	float:left;
+}
+#codeR{
+	height: 30px;
+	width: 80px;
+	float:right;
+	background: #ccc;
+	color:red;
+	font-size:20px;
+	line-height: 26px;
+}
+.smt{
+	margin:20px auto 0;
+	width: 200px;
+	height: 30px;
+	padding-left: 150px;
+}
+#btn{
+	height: 30px;
+	width: 40px;
+	float:left;
+}
+#reg{
+	display: block;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #000;
+	float:left;
+	margin-left:40px;
+}
+#tishi{
+	height: 20px;
+	text-align: center;
+	margin:20px auto;
+	line-height: 20px;
+	font-size: 14px;
+	color:red;
+}

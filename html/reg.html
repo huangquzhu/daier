@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+	<div class="reg">
+		<div class="regImg1">
+			<img src="../img/load_03.jpg" alt="">
+		</div>
+		<form action="#" method="post" id="formL">
+			<div class="logo">
+				<div class="logoImg2">
+					<img src="../img/logo.png" alt="">
+				</div>
+				<h3 class="logoTit">欢迎来到注册页面</h3>
+			</div>
+			<div class="user">
+				<label for="userId">用户名:</label>
+				<input type="text" id="userId" name="username" placeholder="3-6位英文或数字">
+				<span class="judge"></span>
+			</div>
+			<div class="psw">
+				<label for="pswId">密码:</label>
+				<input type="password" id="pswId" name="userpass" placeholder="6-16位英文或数字">
+				<span class="judge"></span>
+			</div>
+			<div class="psw2">
+				<label for="pswId2">确认密码:</label>
+				<input type="password" id="pswId2" name="pawName2" placeholder="再输一遍密码">
+				<span class="judge"></span>
+			</div>
+			<div class="code">
+				<label for="codeW">验证码</label>
+				<input type="text" id="codeW">
+				<input type="button" id="codeR" value="">
+			</div>
+			<div class="smt">
+				<input type="button" value="注册" id="btn">
+				<a id="load" href="load.html">登录</a>
+			</div>			
+		</form>
+		<span id="tishi"></span>
+	</div>
+</body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/reg.js"></script>
+</html>
