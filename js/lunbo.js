@@ -216,3 +216,4 @@ window.onload=function(){
 	let box= document.getElementById("ban_box")
 	let a=new Lunbo(box,{});
 }
+

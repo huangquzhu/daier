@@ -1,6 +1,11 @@
 function verCode(n){
-	let num;
+	let num1;
+	let num2;
+	let num3;
+	let num4;
+	let codeNum;
 	let arr=[];
+	let codeStr=""
 	let str=" ";
 	for(let i=0;i<n;i++){
 		num1=Math.floor((Math.random()*10)+48);
@@ -69,3 +74,4 @@ $("#btn").click(function(){
     codeV=verCode(4);
 	$("#codeR").val(codeV);
 });
+
